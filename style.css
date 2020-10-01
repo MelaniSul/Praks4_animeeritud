@@ -1,0 +1,190 @@
+/*---GLOBAL---*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 42px;
+  text-align: center;
+  color: #5b1474;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.main-content {
+  color: #303030;
+  width: 1060px;
+  margin: auto;
+}
+/*---HEADER---*/
+
+.header-container {
+  color: white;
+  width: 85%;
+  margin: auto;
+}
+
+.header-image {
+  background-image: linear-gradient(
+      112.69deg,
+      #000000 7%,
+      rgba(100, 100, 100, 0.6) 55%,
+      #000000 98%
+    ),
+    url(header-background-img.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+nav ul {
+  display: inline-flex;
+  justify-content: space-around;
+
+  list-style-type: none;
+}
+
+nav ul li {
+  width: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #5b1474;
+}
+
+h1 {
+  font-size: 105px;
+  font-weight: normal;
+  margin-right: 500px;
+}
+
+#logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header {
+  padding-bottom: 100px;
+}
+
+/*---WELCOME---*/
+
+.welcome-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-1 {
+  width: 490px;
+  margin-right: 80px;
+  border-radius: 2px;
+}
+
+.welcome-text::first-letter {
+  color: #5b1474;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  width: 490px;
+  line-height: 1.6;
+}
+
+.welcome {
+  padding-bottom: 150px;
+}
+
+/*---PRICING---*/
+
+.pricing-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.pricing-card {
+  box-shadow: 0px 1px 4px #a6a4a7;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.pricing-card p {
+  width: 300px;
+  height: 100px;
+}
+
+button {
+  border: 1px solid #5b1474;
+  box-shadow: 0px 1px 4px #5b1474;
+  background-color: white;
+  width: 40%;
+  height: 30px;
+  border-radius: 2px;
+  transition: color 0.2s;
+  color: #5b1474;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #5b1474;
+  color: white;
+}
+
+.pricing {
+  padding-bottom: 150px;
+}
+
+/*---TESTIMONIALS---*/
+
+.testimonial-1,
+.testimonial-2 {
+  box-shadow: 0px 1px 4px #a6a4a7;
+  border-radius: 2px;
+  padding: 20px 20px 20px 20px;
+  padding-bottom: 30px;
+  margin-bottom: 80px;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-style: italic;
+}
+
+.testimonials {
+  padding-bottom: 70px;
+}
+
+/*---FOOTER---*/
+
+footer p {
+  text-align: center;
+}
